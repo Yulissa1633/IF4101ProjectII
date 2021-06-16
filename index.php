@@ -1,1 +1,1 @@
-<?php include_once("Laboratorio 1_B91472.html"); ?>
+<?php include_once("index.html"); ?>

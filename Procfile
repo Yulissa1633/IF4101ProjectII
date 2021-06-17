@@ -1,1 +1,1 @@
-web: client-angular/client-angular-project/src/app/app.component.html public/
+web: vendor/bin/heroku-php-apache2 public/

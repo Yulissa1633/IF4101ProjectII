@@ -10,8 +10,8 @@
     "e2e": "ng e2e"
   },
   "scripts": {
-	"postinstall": "ng build --prod"
-	"preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
+	"postinstall": "ng build --prod",
+	"preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
 	},
 	"engines": {
     "node": "16.3.0",

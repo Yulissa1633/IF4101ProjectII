@@ -8,12 +8,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HelpDeskloginComponent } from './help-desk-login/help-desk-login.component';
 import { HomeComponent } from './home/home.component';
+import { HelpDeskMainComponent } from './help-desk-main/help-desk-main.component';
 
 const appRoutes: Routes = [
   {
     path: 'help-desk-login',
     component: HelpDeskloginComponent,
     data: { title: 'Help Desk Login' }
+  },
+  {
+    path: 'help-desk-main',
+    component: HelpDeskMainComponent,
+    data: { title: 'Help Desk Main' }
   },
   {
     path: 'home',
@@ -30,7 +36,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HelpDeskloginComponent,
-    HomeComponent
+    HomeComponent,
+    HelpDeskMainComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

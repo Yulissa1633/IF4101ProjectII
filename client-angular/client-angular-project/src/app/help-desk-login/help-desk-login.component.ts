@@ -16,6 +16,9 @@ export class HelpDeskloginComponent implements OnInit {
 
    }
 
+   goToMain() {
+    this.router.navigate(['/help-desk-main']);
+  }
 
   }
 

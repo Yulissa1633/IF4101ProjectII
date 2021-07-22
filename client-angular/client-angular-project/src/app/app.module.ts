@@ -9,6 +9,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HelpDeskloginComponent } from './help-desk-login/help-desk-login.component';
 import { HomeComponent } from './home/home.component';
 import { HelpDeskMainComponent } from './help-desk-main/help-desk-main.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatIconModule} from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table'  
 
 const appRoutes: Routes = [
   {
@@ -45,7 +52,14 @@ const appRoutes: Routes = [
     ReactiveFormsModule, 
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatSelectModule,
+    MatIconModule,
+    MatCardModule,
+    MatPaginatorModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
